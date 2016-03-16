@@ -8,19 +8,36 @@
 
 import Foundation
 
+/**
+ Structure modeling a human musician, who may be playing `0...n` instruments
+ */
 public struct Performer {
     
-    public let identifier: String
+    // MARK: - Instance Properties
+    
+    /// Identifier of `Performer`.
+    public let identifier: PerformerID
+    
+    /// Full name of `Performer`.
     public let fullName: String
+    
+    /// Abbreviated name of `Performer`.
     public let abbreviatedName: String
+    
+    /// Array of `InstrumentKind` played by `Performer`.
     public let instrumentKinds: [InstrumentKind]
     
+    // MARK: - Initializers
+    
+    /**
+     Create a `Performer`.
+     */
     public init(
         identifier: String,
         fullName: String? = nil,
         abbreviatedName: String? = nil,
         instrumentKinds: [InstrumentKind]
-        )
+    )
     {
         self.identifier = identifier
         self.fullName = fullName ?? identifier

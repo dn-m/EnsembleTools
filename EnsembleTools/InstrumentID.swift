@@ -8,4 +8,5 @@
 
 import Foundation
 
+/// `Instrument` Identifier
 public typealias InstrumentID = String

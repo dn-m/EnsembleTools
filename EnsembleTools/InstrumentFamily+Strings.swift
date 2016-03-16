@@ -10,8 +10,10 @@ import Foundation
 
 extension InstrumentFamily {
     
+    /// Model of the string instrument family
     public class Strings: InstrumentFamily {
         
+        /// All members of string instrument family
         public class override func getMembers() -> [InstrumentKind] {
             return [ Violin, Viola, Violoncello, Contrabass, Guitar ]
         }

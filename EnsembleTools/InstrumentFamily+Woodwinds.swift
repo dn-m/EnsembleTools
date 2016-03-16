@@ -11,8 +11,10 @@ import Foundation
 
 extension InstrumentFamily {
     
+    /// Model of the woodwind instrument family.
     public class Woodwinds: InstrumentFamily {
         
+        /// Model of the flute instrument family.
         public class Flutes: InstrumentFamily {
             public static let Piccolo: InstrumentKind = .Flute_Piccolo
             public static let C: InstrumentKind = .Flute_C
@@ -25,6 +27,7 @@ extension InstrumentFamily {
             }
         }
         
+        /// Model of the clarinet instrument family.
         public class Clarinets: InstrumentFamily {
             public static let Bflat: InstrumentKind = .Clarinet_Bflat
             public static let A: InstrumentKind = .Clarinet_A
@@ -36,6 +39,7 @@ extension InstrumentFamily {
             }
         }
         
+        /// Model of the double reed instrument family.
         public class DoubleReeds: InstrumentFamily {
             public static let Oboe: InstrumentKind = .Oboe
             public static let Oboe_dArmore: InstrumentKind = .Oboe_dAmore
@@ -47,6 +51,7 @@ extension InstrumentFamily {
             }
         }
         
+        /// Model of the saxophone instrument family.
         public class Saxophones: InstrumentFamily {
             public static let Sopranino: InstrumentKind = .Saxophone_Sopranino
             public static let Soprano: InstrumentKind = .Saxophone_Soprano
@@ -60,6 +65,9 @@ extension InstrumentFamily {
             }
         }
         
+        /**
+         - returns: All subFamilies of the woodwind instrument family
+         */
         internal override class func getSubFamilies() -> [InstrumentFamily.Type] {
             return [
                 Flutes.self,

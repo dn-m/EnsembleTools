@@ -8,4 +8,5 @@
 
 import Foundation
 
+/// `Performer` Identifier
 public typealias PerformerID = String

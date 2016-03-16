@@ -9,10 +9,17 @@
 import Foundation
 
 /**
+ Model of the brass instrument family.
+ 
  - warning: Not fully implemented!
  */
 public class Brass: InstrumentFamily {
-    
+ 
+    /** 
+     Model of the trumpet instrument family.
+     
+     - warning: Not fully implemented!
+     */
     public class Trumpets: InstrumentFamily {
         public static let Bflat: InstrumentKind = .Trumpet_Bflat
         public static let C: InstrumentKind = .Trumpet_C
@@ -22,6 +29,11 @@ public class Brass: InstrumentFamily {
         }
     }
     
+    /**
+     - warning: Not fully implemented!
+     
+     - returns: All subFamilies of the brash instrument family
+     */
     internal override class func getSubFamilies() -> [InstrumentFamily.Type] {
         return [Trumpets.self]
     }

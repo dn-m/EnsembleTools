@@ -8,6 +8,9 @@
 
 import Foundation
 
+/**
+ Flat list of instruments playable.
+ */
 public enum InstrumentKind: String {
     
     case Violin

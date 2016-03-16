@@ -9,11 +9,24 @@
 import Foundation
 import DictionaryTools
 
+/**
+ Model of a physical instrument being played by a `Performer`.
+ */
 public struct Instrument {
     
+    // MARK: - Instance Properties
+    
+    /// `InstrumentIdentifierPath` of `Instrument`
     public let identifierPath: InstrumentIdentifierPath
+    
+    /// `InstrumentKind` of `Instrument`
     public let kind: InstrumentKind
     
+    // MARK: - Initializers
+    
+    /**
+     Create an `Instrument`.
+     */
     public init(identifierPath: InstrumentIdentifierPath, kind: InstrumentKind) {
         self.identifierPath = identifierPath
         self.kind = kind
