@@ -15,7 +15,7 @@ public struct Performer {
     
     // MARK: - Typealiases
     
-    /// Identifier of `Performer`
+    /// Identifier of `Performer`.
     public typealias Identifier = String
     
     // MARK: - Instance Properties
