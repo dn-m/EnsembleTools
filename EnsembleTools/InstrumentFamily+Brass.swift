@@ -8,33 +8,36 @@
 
 import Foundation
 
-/**
- Model of the brass instrument family.
- 
- - warning: Not fully implemented!
- */
-public class Brass: InstrumentFamily {
- 
-    /** 
-     Model of the trumpet instrument family.
-     
-     - warning: Not fully implemented!
-     */
-    public class Trumpets: InstrumentFamily {
-        public static let Bflat: InstrumentKind = .Trumpet_Bflat
-        public static let C: InstrumentKind = .Trumpet_C
-        
-        internal override class func getMembers() -> [InstrumentKind] {
-            return [Bflat, C]
-        }
-    }
+extension InstrumentFamily {
     
     /**
-     - warning: Not fully implemented!
+     Model of the brass instrument family.
      
-     - returns: All subFamilies of the brash instrument family
+     - warning: Not fully implemented!
      */
-    internal override class func getSubFamilies() -> [InstrumentFamily.Type] {
-        return [Trumpets.self]
+    public class Brass: InstrumentFamily {
+        
+        /**
+         Model of the trumpet instrument family.
+         
+         - warning: Not fully implemented!
+         */
+        public class Trumpets: InstrumentFamily {
+            public static let Bflat: InstrumentKind = .Trumpet_Bflat
+            public static let C: InstrumentKind = .Trumpet_C
+            
+            internal override class func getMembers() -> [InstrumentKind] {
+                return [Bflat, C]
+            }
+        }
+        
+        /**
+         - warning: Not fully implemented!
+         
+         - returns: All subFamilies of the brash instrument family
+         */
+        internal override class func getSubFamilies() -> [InstrumentFamily.Type] {
+            return [Trumpets.self]
+        }
     }
 }
