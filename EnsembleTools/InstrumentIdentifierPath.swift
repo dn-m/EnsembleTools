@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import DictionaryTools
 
-public class InstrumentIdentifierPath {
+public class InstrumentIdentifierPath: KeyPath {
     
     public let performerID: PerformerID
     public let instrumentID: InstrumentID
@@ -16,6 +17,6 @@ public class InstrumentIdentifierPath {
     public init(_ performerID: PerformerID, _ instrumentID: InstrumentID) {
         self.performerID = performerID
         self.instrumentID = instrumentID
-        //super.init([performerID, instrumentID])
+        super.init([performerID, instrumentID])
     }
 }

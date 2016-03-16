@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import DictionaryTools
 
 public struct Instrument {
     
@@ -19,10 +20,8 @@ public struct Instrument {
     }
 }
 
-//extension Instrument: Equatable { }
+extension Instrument: Equatable { }
 
-/*
- public func == (lhs: Instrument, rhs: Instrument) -> Bool {
- return lhs.identifierPath == rhs.identifierPath && lhs.kind == rhs.kind
- }
- */
+public func == (lhs: Instrument, rhs: Instrument) -> Bool {
+    return lhs.identifierPath == rhs.identifierPath && lhs.kind == rhs.kind
+}
