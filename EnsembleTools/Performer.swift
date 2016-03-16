@@ -13,10 +13,14 @@ import Foundation
  */
 public struct Performer {
     
+    // MARK: - Typealiases
+    
+    public typealias Identifier = String
+    
     // MARK: - Instance Properties
     
     /// Identifier of `Performer`.
-    public let identifier: PerformerID
+    public let identifier: Identifier
     
     /// Full name of `Performer`.
     public let fullName: String
@@ -33,7 +37,7 @@ public struct Performer {
      Create a `Performer`.
      */
     public init(
-        identifier: String,
+        identifier: Identifier,
         fullName: String? = nil,
         abbreviatedName: String? = nil,
         instrumentKinds: [InstrumentKind]

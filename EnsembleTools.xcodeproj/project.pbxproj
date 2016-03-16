@@ -14,8 +14,6 @@
 		078E4E8D1C9A05B8004DDD4F /* EnsembleTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 078E4E5A1C9A058C004DDD4F /* EnsembleTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		078E4E8F1C9A062C004DDD4F /* EnsembleTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 078E4E571C9A058C004DDD4F /* EnsembleTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		078E4E911C9A0634004DDD4F /* EnsembleTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 078E4E761C9A059F004DDD4F /* EnsembleTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		078E4E951C9A06D8004DDD4F /* PerformerID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4E941C9A06D8004DDD4F /* PerformerID.swift */; };
-		078E4E961C9A06D8004DDD4F /* PerformerID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4E941C9A06D8004DDD4F /* PerformerID.swift */; };
 		078E4E971C9A06E1004DDD4F /* EnsembleToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4E661C9A058C004DDD4F /* EnsembleToolsTests.swift */; };
 		078E4E991C9A0701004DDD4F /* DictionaryTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078E4E981C9A0701004DDD4F /* DictionaryTools.framework */; };
 		078E4E9B1C9A0710004DDD4F /* DictionaryTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078E4E9A1C9A0710004DDD4F /* DictionaryTools.framework */; };
@@ -25,8 +23,6 @@
 		078E4EA61C9A07ED004DDD4F /* InstrumentKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4EA41C9A07ED004DDD4F /* InstrumentKind.swift */; };
 		078E4EA81C9A07FE004DDD4F /* InstrumentIdentifierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4EA71C9A07FE004DDD4F /* InstrumentIdentifierPath.swift */; };
 		078E4EA91C9A07FE004DDD4F /* InstrumentIdentifierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4EA71C9A07FE004DDD4F /* InstrumentIdentifierPath.swift */; };
-		078E4EAB1C9A080B004DDD4F /* InstrumentID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4EAA1C9A080B004DDD4F /* InstrumentID.swift */; };
-		078E4EAC1C9A080B004DDD4F /* InstrumentID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4EAA1C9A080B004DDD4F /* InstrumentID.swift */; };
 		078E4EAE1C9A081F004DDD4F /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4EAD1C9A081F004DDD4F /* Instrument.swift */; };
 		078E4EAF1C9A081F004DDD4F /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4EAD1C9A081F004DDD4F /* Instrument.swift */; };
 		078E4EB11C9A082E004DDD4F /* InstrumentFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4EB01C9A082E004DDD4F /* InstrumentFamily.swift */; };
@@ -88,13 +84,11 @@
 		078E4E681C9A058C004DDD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		078E4E761C9A059F004DDD4F /* EnsembleTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EnsembleTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		078E4E7F1C9A059F004DDD4F /* EnsembleToolsMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnsembleToolsMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		078E4E941C9A06D8004DDD4F /* PerformerID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformerID.swift; sourceTree = "<group>"; };
 		078E4E981C9A0701004DDD4F /* DictionaryTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DictionaryTools.framework; path = Carthage/Build/iOS/DictionaryTools.framework; sourceTree = "<group>"; };
 		078E4E9A1C9A0710004DDD4F /* DictionaryTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DictionaryTools.framework; path = Carthage/Build/Mac/DictionaryTools.framework; sourceTree = "<group>"; };
 		078E4EA11C9A07DA004DDD4F /* Performer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Performer.swift; sourceTree = "<group>"; };
 		078E4EA41C9A07ED004DDD4F /* InstrumentKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentKind.swift; sourceTree = "<group>"; };
 		078E4EA71C9A07FE004DDD4F /* InstrumentIdentifierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentIdentifierPath.swift; sourceTree = "<group>"; };
-		078E4EAA1C9A080B004DDD4F /* InstrumentID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentID.swift; sourceTree = "<group>"; };
 		078E4EAD1C9A081F004DDD4F /* Instrument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
 		078E4EB01C9A082E004DDD4F /* InstrumentFamily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentFamily.swift; sourceTree = "<group>"; };
 		078E4EB31C9A083E004DDD4F /* InstrumentFamily+Brass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InstrumentFamily+Brass.swift"; sourceTree = "<group>"; };
@@ -164,8 +158,6 @@
 			isa = PBXGroup;
 			children = (
 				078E4EA71C9A07FE004DDD4F /* InstrumentIdentifierPath.swift */,
-				078E4E941C9A06D8004DDD4F /* PerformerID.swift */,
-				078E4EAA1C9A080B004DDD4F /* InstrumentID.swift */,
 				078E4EA11C9A07DA004DDD4F /* Performer.swift */,
 				078E4EAD1C9A081F004DDD4F /* Instrument.swift */,
 				078E4EBC1C9A0905004DDD4F /* InstrumentFamily */,
@@ -452,9 +444,7 @@
 				078E4EA51C9A07ED004DDD4F /* InstrumentKind.swift in Sources */,
 				078E4EA21C9A07DA004DDD4F /* Performer.swift in Sources */,
 				078E4EA81C9A07FE004DDD4F /* InstrumentIdentifierPath.swift in Sources */,
-				078E4EAB1C9A080B004DDD4F /* InstrumentID.swift in Sources */,
 				078E4EAE1C9A081F004DDD4F /* Instrument.swift in Sources */,
-				078E4E951C9A06D8004DDD4F /* PerformerID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,9 +467,7 @@
 				078E4EA61C9A07ED004DDD4F /* InstrumentKind.swift in Sources */,
 				078E4EA31C9A07DA004DDD4F /* Performer.swift in Sources */,
 				078E4EA91C9A07FE004DDD4F /* InstrumentIdentifierPath.swift in Sources */,
-				078E4EAC1C9A080B004DDD4F /* InstrumentID.swift in Sources */,
 				078E4EAF1C9A081F004DDD4F /* Instrument.swift in Sources */,
-				078E4E961C9A06D8004DDD4F /* PerformerID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -765,6 +753,7 @@
 				078E4E6D1C9A058D004DDD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		078E4E6E1C9A058D004DDD4F /* Build configuration list for PBXNativeTarget "EnsembleToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -773,6 +762,7 @@
 				078E4E701C9A058D004DDD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		078E4E871C9A059F004DDD4F /* Build configuration list for PBXNativeTarget "EnsembleToolsMac" */ = {
 			isa = XCConfigurationList;
@@ -781,6 +771,7 @@
 				078E4E891C9A059F004DDD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		078E4E8A1C9A059F004DDD4F /* Build configuration list for PBXNativeTarget "EnsembleToolsMacTests" */ = {
 			isa = XCConfigurationList;
@@ -789,6 +780,7 @@
 				078E4E8C1C9A059F004DDD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

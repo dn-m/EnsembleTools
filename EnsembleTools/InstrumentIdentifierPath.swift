@@ -15,17 +15,17 @@ public class InstrumentIdentifierPath: KeyPath {
     // MARK: - Instance Properties
     
     /// `PerformerID` of `InstrumentIdentifierPath`.
-    public let performerID: PerformerID
+    public let performerID: Performer.Identifier
     
     /// `InstrumentID` of `InstrumentIdentifierPath`.
-    public let instrumentID: InstrumentID
+    public let instrumentID: Instrument.Identifier
     
     // MARK: - Initializers
     
     /**
      Create an `InstrumentIdentifierPath`.
      */
-    public init(_ performerID: PerformerID, _ instrumentID: InstrumentID) {
+    public init(_ performerID: Performer.Identifier, _ instrumentID: Instrument.Identifier) {
         self.performerID = performerID
         self.instrumentID = instrumentID
         super.init([performerID, instrumentID])

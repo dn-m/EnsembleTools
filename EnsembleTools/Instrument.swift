@@ -14,6 +14,10 @@ import DictionaryTools
  */
 public struct Instrument {
     
+    // MARK: - Typealiases
+    
+    public typealias Identifier = String
+    
     // MARK: - Instance Properties
     
     /// `InstrumentIdentifierPath` of `Instrument`.
