@@ -163,17 +163,13 @@
 		078E4E591C9A058C004DDD4F /* EnsembleTools */ = {
 			isa = PBXGroup;
 			children = (
-				078E4E921C9A069B004DDD4F /* Supporting Files */,
-				078E4E941C9A06D8004DDD4F /* PerformerID.swift */,
-				078E4EB01C9A082E004DDD4F /* InstrumentFamily.swift */,
-				078E4EB61C9A084A004DDD4F /* InstrumentFamily+Strings.swift */,
-				078E4EB91C9A0859004DDD4F /* InstrumentFamily+Woodwinds.swift */,
-				078E4EB31C9A083E004DDD4F /* InstrumentFamily+Brass.swift */,
-				078E4EA11C9A07DA004DDD4F /* Performer.swift */,
-				078E4EA41C9A07ED004DDD4F /* InstrumentKind.swift */,
-				078E4EAA1C9A080B004DDD4F /* InstrumentID.swift */,
-				078E4EAD1C9A081F004DDD4F /* Instrument.swift */,
 				078E4EA71C9A07FE004DDD4F /* InstrumentIdentifierPath.swift */,
+				078E4E941C9A06D8004DDD4F /* PerformerID.swift */,
+				078E4EAA1C9A080B004DDD4F /* InstrumentID.swift */,
+				078E4EA11C9A07DA004DDD4F /* Performer.swift */,
+				078E4EAD1C9A081F004DDD4F /* Instrument.swift */,
+				078E4EBC1C9A0905004DDD4F /* InstrumentFamily */,
+				078E4E921C9A069B004DDD4F /* Supporting Files */,
 			);
 			path = EnsembleTools;
 			sourceTree = "<group>";
@@ -226,6 +222,18 @@
 				078E4E9A1C9A0710004DDD4F /* DictionaryTools.framework */,
 			);
 			name = Mac;
+			sourceTree = "<group>";
+		};
+		078E4EBC1C9A0905004DDD4F /* InstrumentFamily */ = {
+			isa = PBXGroup;
+			children = (
+				078E4EA41C9A07ED004DDD4F /* InstrumentKind.swift */,
+				078E4EB01C9A082E004DDD4F /* InstrumentFamily.swift */,
+				078E4EB61C9A084A004DDD4F /* InstrumentFamily+Strings.swift */,
+				078E4EB91C9A0859004DDD4F /* InstrumentFamily+Woodwinds.swift */,
+				078E4EB31C9A083E004DDD4F /* InstrumentFamily+Brass.swift */,
+			);
+			name = InstrumentFamily;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
