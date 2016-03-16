@@ -16,10 +16,10 @@ public struct Instrument {
     
     // MARK: - Instance Properties
     
-    /// `InstrumentIdentifierPath` of `Instrument`
+    /// `InstrumentIdentifierPath` of `Instrument`.
     public let identifierPath: InstrumentIdentifierPath
     
-    /// `InstrumentKind` of `Instrument`
+    /// `InstrumentKind` of `Instrument`.
     public let kind: InstrumentKind
     
     // MARK: - Initializers
