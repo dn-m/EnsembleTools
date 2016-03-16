@@ -31,11 +31,6 @@ extension InstrumentFamily {
             }
         }
         
-        /**
-         - warning: Not fully implemented!
-         
-         - returns: All subFamilies of the brash instrument family
-         */
         internal override class func getSubFamilies() -> [InstrumentFamily.Type] {
             return [Trumpets.self]
         }

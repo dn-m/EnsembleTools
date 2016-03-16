@@ -8,7 +8,11 @@
 
 import Foundation
 
-/// Hierarchical model of families of instruments.
+/** 
+ Hierarchical model of families of instruments.
+ 
+ >`InstrumentFamily.Woodwinds.Flutes.Alto`
+ */
 public class InstrumentFamily {
     
     // MARK: - Type Properties

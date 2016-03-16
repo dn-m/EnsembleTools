@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 extension InstrumentFamily {
     
     /// Model of the woodwind instrument family.
@@ -64,10 +63,7 @@ extension InstrumentFamily {
                 return [Sopranino, Soprano, Alto, Baritone, Bass, Contrabass]
             }
         }
-        
-        /**
-         - returns: All subFamilies of the woodwind instrument family
-         */
+
         internal override class func getSubFamilies() -> [InstrumentFamily.Type] {
             return [
                 Flutes.self,

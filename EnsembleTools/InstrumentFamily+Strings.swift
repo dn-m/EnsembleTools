@@ -10,18 +10,17 @@ import Foundation
 
 extension InstrumentFamily {
     
-    /// Model of the string instrument family
+    /// Model of the string instrument family.
     public class Strings: InstrumentFamily {
-        
-        /// All members of string instrument family
-        public class override func getMembers() -> [InstrumentKind] {
-            return [ Violin, Viola, Violoncello, Contrabass, Guitar ]
-        }
         
         public static let Violin: InstrumentKind = .Violin
         public static let Viola: InstrumentKind = .Viola
         public static let Violoncello: InstrumentKind = .Violoncello
         public static let Contrabass: InstrumentKind = .Contrabass
         public static let Guitar: InstrumentKind = .Guitar
+        
+        internal class override func getMembers() -> [InstrumentKind] {
+            return [ Violin, Viola, Violoncello, Contrabass, Guitar ]
+        }
     }
 }
