@@ -11,7 +11,7 @@ import Foundation
 extension InstrumentFamily {
     
     /// Model of the string instrument family.
-    public class Strings: InstrumentFamily {
+    public class String: InstrumentFamily {
         
         public static let Violin: InstrumentKind = .Violin
         public static let Viola: InstrumentKind = .Viola

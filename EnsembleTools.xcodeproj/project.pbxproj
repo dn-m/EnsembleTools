@@ -9,12 +9,10 @@
 /* Begin PBXBuildFile section */
 		078E4E5B1C9A058C004DDD4F /* EnsembleTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 078E4E5A1C9A058C004DDD4F /* EnsembleTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		078E4E621C9A058C004DDD4F /* EnsembleTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078E4E571C9A058C004DDD4F /* EnsembleTools.framework */; };
-		078E4E671C9A058C004DDD4F /* EnsembleToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4E661C9A058C004DDD4F /* EnsembleToolsTests.swift */; };
 		078E4E801C9A059F004DDD4F /* EnsembleTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078E4E761C9A059F004DDD4F /* EnsembleTools.framework */; };
 		078E4E8D1C9A05B8004DDD4F /* EnsembleTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 078E4E5A1C9A058C004DDD4F /* EnsembleTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		078E4E8F1C9A062C004DDD4F /* EnsembleTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 078E4E571C9A058C004DDD4F /* EnsembleTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		078E4E911C9A0634004DDD4F /* EnsembleTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 078E4E761C9A059F004DDD4F /* EnsembleTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		078E4E971C9A06E1004DDD4F /* EnsembleToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4E661C9A058C004DDD4F /* EnsembleToolsTests.swift */; };
 		078E4E991C9A0701004DDD4F /* DictionaryTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078E4E981C9A0701004DDD4F /* DictionaryTools.framework */; };
 		078E4E9B1C9A0710004DDD4F /* DictionaryTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078E4E9A1C9A0710004DDD4F /* DictionaryTools.framework */; };
 		078E4EA21C9A07DA004DDD4F /* Performer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4EA11C9A07DA004DDD4F /* Performer.swift */; };
@@ -33,6 +31,8 @@
 		078E4EB81C9A084A004DDD4F /* InstrumentFamily+Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4EB61C9A084A004DDD4F /* InstrumentFamily+Strings.swift */; };
 		078E4EBA1C9A0859004DDD4F /* InstrumentFamily+Woodwinds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4EB91C9A0859004DDD4F /* InstrumentFamily+Woodwinds.swift */; };
 		078E4EBB1C9A0859004DDD4F /* InstrumentFamily+Woodwinds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4EB91C9A0859004DDD4F /* InstrumentFamily+Woodwinds.swift */; };
+		07D2B5541C9A195F0078B0AB /* InstrumentFamilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D2B5531C9A195F0078B0AB /* InstrumentFamilyTests.swift */; };
+		07D2B5551C9A195F0078B0AB /* InstrumentFamilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D2B5531C9A195F0078B0AB /* InstrumentFamilyTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +80,6 @@
 		078E4E5A1C9A058C004DDD4F /* EnsembleTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EnsembleTools.h; path = EnsembleTools/EnsembleTools.h; sourceTree = "<group>"; };
 		078E4E5C1C9A058C004DDD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		078E4E611C9A058C004DDD4F /* EnsembleToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnsembleToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		078E4E661C9A058C004DDD4F /* EnsembleToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnsembleToolsTests.swift; sourceTree = "<group>"; };
 		078E4E681C9A058C004DDD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		078E4E761C9A059F004DDD4F /* EnsembleTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EnsembleTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		078E4E7F1C9A059F004DDD4F /* EnsembleToolsMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnsembleToolsMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +93,7 @@
 		078E4EB31C9A083E004DDD4F /* InstrumentFamily+Brass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InstrumentFamily+Brass.swift"; sourceTree = "<group>"; };
 		078E4EB61C9A084A004DDD4F /* InstrumentFamily+Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InstrumentFamily+Strings.swift"; sourceTree = "<group>"; };
 		078E4EB91C9A0859004DDD4F /* InstrumentFamily+Woodwinds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InstrumentFamily+Woodwinds.swift"; sourceTree = "<group>"; };
+		07D2B5531C9A195F0078B0AB /* InstrumentFamilyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentFamilyTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,7 +169,7 @@
 		078E4E651C9A058C004DDD4F /* EnsembleToolsTests */ = {
 			isa = PBXGroup;
 			children = (
-				078E4E661C9A058C004DDD4F /* EnsembleToolsTests.swift */,
+				07D2B5531C9A195F0078B0AB /* InstrumentFamilyTests.swift */,
 				078E4E931C9A06A2004DDD4F /* Supporting Files */,
 			);
 			path = EnsembleToolsTests;
@@ -452,7 +452,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				078E4E671C9A058C004DDD4F /* EnsembleToolsTests.swift in Sources */,
+				07D2B5541C9A195F0078B0AB /* InstrumentFamilyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +475,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				078E4E971C9A06E1004DDD4F /* EnsembleToolsTests.swift in Sources */,
+				07D2B5551C9A195F0078B0AB /* InstrumentFamilyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

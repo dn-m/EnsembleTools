@@ -22,7 +22,7 @@ extension InstrumentFamily {
          
          - warning: Not fully implemented!
          */
-        public class Trumpets: InstrumentFamily {
+        public class Trumpet: InstrumentFamily {
             public static let Bflat: InstrumentKind = .Trumpet_Bflat
             public static let C: InstrumentKind = .Trumpet_C
             
@@ -32,7 +32,7 @@ extension InstrumentFamily {
         }
         
         internal override class func getSubFamilies() -> [InstrumentFamily.Type] {
-            return [Trumpets.self]
+            return [Trumpet.self]
         }
     }
 }
