@@ -12,6 +12,8 @@
 		078E4E671C9A058C004DDD4F /* EnsembleToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4E661C9A058C004DDD4F /* EnsembleToolsTests.swift */; };
 		078E4E801C9A059F004DDD4F /* EnsembleTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078E4E761C9A059F004DDD4F /* EnsembleTools.framework */; };
 		078E4E8D1C9A05B8004DDD4F /* EnsembleTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 078E4E5A1C9A058C004DDD4F /* EnsembleTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		078E4E8F1C9A062C004DDD4F /* EnsembleTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 078E4E571C9A058C004DDD4F /* EnsembleTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		078E4E911C9A0634004DDD4F /* EnsembleTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 078E4E761C9A059F004DDD4F /* EnsembleTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,29 @@
 			remoteInfo = EnsembleToolsMac;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		078E4E8E1C9A0627004DDD4F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				078E4E8F1C9A062C004DDD4F /* EnsembleTools.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078E4E901C9A0630004DDD4F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				078E4E911C9A0634004DDD4F /* EnsembleTools.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		078E4E571C9A058C004DDD4F /* EnsembleTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EnsembleTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +186,7 @@
 				078E4E5D1C9A058C004DDD4F /* Sources */,
 				078E4E5E1C9A058C004DDD4F /* Frameworks */,
 				078E4E5F1C9A058C004DDD4F /* Resources */,
+				078E4E8E1C9A0627004DDD4F /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -197,6 +223,7 @@
 				078E4E7B1C9A059F004DDD4F /* Sources */,
 				078E4E7C1C9A059F004DDD4F /* Frameworks */,
 				078E4E7D1C9A059F004DDD4F /* Resources */,
+				078E4E901C9A0630004DDD4F /* CopyFiles */,
 			);
 			buildRules = (
 			);
