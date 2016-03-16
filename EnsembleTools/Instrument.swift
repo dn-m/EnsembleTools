@@ -16,6 +16,7 @@ public struct Instrument {
     
     // MARK: - Typealiases
     
+    /// Identifier of `Instrument`
     public typealias Identifier = String
     
     // MARK: - Instance Properties
