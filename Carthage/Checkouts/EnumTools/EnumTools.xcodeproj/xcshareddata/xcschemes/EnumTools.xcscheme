@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "078E4E561C9A058C004DDD4F"
-               BuildableName = "EnsembleTools.framework"
-               BlueprintName = "EnsembleTools"
-               ReferencedContainer = "container:EnsembleTools.xcodeproj">
+               BlueprintIdentifier = "07994EF91C7E3CFC00296896"
+               BuildableName = "EnumTools.framework"
+               BlueprintName = "EnumTools"
+               ReferencedContainer = "container:EnumTools.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "078E4E601C9A058C004DDD4F"
-               BuildableName = "EnsembleToolsTests.xctest"
-               BlueprintName = "EnsembleToolsTests"
-               ReferencedContainer = "container:EnsembleTools.xcodeproj">
+               BlueprintIdentifier = "07994F031C7E3CFC00296896"
+               BuildableName = "EnumToolsTests.xctest"
+               BlueprintName = "EnumToolsTests"
+               ReferencedContainer = "container:EnumTools.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "078E4E561C9A058C004DDD4F"
-            BuildableName = "EnsembleTools.framework"
-            BlueprintName = "EnsembleTools"
-            ReferencedContainer = "container:EnsembleTools.xcodeproj">
+            BlueprintIdentifier = "07994EF91C7E3CFC00296896"
+            BuildableName = "EnumTools.framework"
+            BlueprintName = "EnumTools"
+            ReferencedContainer = "container:EnumTools.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,10 +64,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "078E4E561C9A058C004DDD4F"
-            BuildableName = "EnsembleTools.framework"
-            BlueprintName = "EnsembleTools"
-            ReferencedContainer = "container:EnsembleTools.xcodeproj">
+            BlueprintIdentifier = "07994EF91C7E3CFC00296896"
+            BuildableName = "EnumTools.framework"
+            BlueprintName = "EnumTools"
+            ReferencedContainer = "container:EnumTools.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,10 +82,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "078E4E561C9A058C004DDD4F"
-            BuildableName = "EnsembleTools.framework"
-            BlueprintName = "EnsembleTools"
-            ReferencedContainer = "container:EnsembleTools.xcodeproj">
+            BlueprintIdentifier = "07994EF91C7E3CFC00296896"
+            BuildableName = "EnumTools.framework"
+            BlueprintName = "EnumTools"
+            ReferencedContainer = "container:EnumTools.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

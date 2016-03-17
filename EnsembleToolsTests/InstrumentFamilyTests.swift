@@ -7,19 +7,26 @@
 //
 
 import XCTest
+import EnumTools
 @testable import EnsembleTools
 
 class InstrumentFamilyTests: XCTestCase {
     
-    func testStringHasViolin() {
+    func testStringHasViolinTrue() {
         XCTAssert(InstrumentFamily.String.has(.Violin))
     }
     
+    /*
+    func testStringHasViolin() {
+        //XCTAssert(InstrumentFamily.String.has(.Violin))
+    }
+    
     func testFluteHasAlto() {
-        XCTAssert(InstrumentFamily.Woodwind.Flute.has(.Flute_Alto))
+        //XCTAssert(InstrumentFamily.Woodwind.Flute.has(.Flute_Alto))
     }
     
     func testStringHasAltoFalse() {
         XCTAssertFalse(InstrumentFamily.String.has(.Flute_Alto))
     }
+    */
 }

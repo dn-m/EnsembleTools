@@ -31,6 +31,12 @@
 		078E4EB81C9A084A004DDD4F /* InstrumentFamily+Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4EB61C9A084A004DDD4F /* InstrumentFamily+Strings.swift */; };
 		078E4EBA1C9A0859004DDD4F /* InstrumentFamily+Woodwinds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4EB91C9A0859004DDD4F /* InstrumentFamily+Woodwinds.swift */; };
 		078E4EBB1C9A0859004DDD4F /* InstrumentFamily+Woodwinds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E4EB91C9A0859004DDD4F /* InstrumentFamily+Woodwinds.swift */; };
+		07B08FC91C9B128600FD7A07 /* EnumTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B08FC81C9B128600FD7A07 /* EnumTools.framework */; };
+		07B08FCB1C9B129300FD7A07 /* EnumTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B08FCA1C9B129300FD7A07 /* EnumTools.framework */; };
+		07B08FD01C9B158800FD7A07 /* EnumTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07B08FCA1C9B129300FD7A07 /* EnumTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07B08FD11C9B158800FD7A07 /* DictionaryTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 078E4E9A1C9A0710004DDD4F /* DictionaryTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07B08FD21C9B159000FD7A07 /* EnumTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07B08FC81C9B128600FD7A07 /* EnumTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07B08FD31C9B159000FD7A07 /* DictionaryTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 078E4E981C9A0701004DDD4F /* DictionaryTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		07D2B5541C9A195F0078B0AB /* InstrumentFamilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D2B5531C9A195F0078B0AB /* InstrumentFamilyTests.swift */; };
 		07D2B5551C9A195F0078B0AB /* InstrumentFamilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D2B5531C9A195F0078B0AB /* InstrumentFamilyTests.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +65,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				07B08FD21C9B159000FD7A07 /* EnumTools.framework in CopyFiles */,
+				07B08FD31C9B159000FD7A07 /* DictionaryTools.framework in CopyFiles */,
 				078E4E8F1C9A062C004DDD4F /* EnsembleTools.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +77,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				07B08FD01C9B158800FD7A07 /* EnumTools.framework in CopyFiles */,
+				07B08FD11C9B158800FD7A07 /* DictionaryTools.framework in CopyFiles */,
 				078E4E911C9A0634004DDD4F /* EnsembleTools.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,6 +103,8 @@
 		078E4EB31C9A083E004DDD4F /* InstrumentFamily+Brass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InstrumentFamily+Brass.swift"; sourceTree = "<group>"; };
 		078E4EB61C9A084A004DDD4F /* InstrumentFamily+Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InstrumentFamily+Strings.swift"; sourceTree = "<group>"; };
 		078E4EB91C9A0859004DDD4F /* InstrumentFamily+Woodwinds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InstrumentFamily+Woodwinds.swift"; sourceTree = "<group>"; };
+		07B08FC81C9B128600FD7A07 /* EnumTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EnumTools.framework; path = Carthage/Build/iOS/EnumTools.framework; sourceTree = "<group>"; };
+		07B08FCA1C9B129300FD7A07 /* EnumTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EnumTools.framework; path = Carthage/Build/Mac/EnumTools.framework; sourceTree = "<group>"; };
 		07D2B5531C9A195F0078B0AB /* InstrumentFamilyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentFamilyTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B08FC91C9B128600FD7A07 /* EnumTools.framework in Frameworks */,
 				078E4E991C9A0701004DDD4F /* DictionaryTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B08FCB1C9B129300FD7A07 /* EnumTools.framework in Frameworks */,
 				078E4E9B1C9A0710004DDD4F /* DictionaryTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,11 +171,11 @@
 		078E4E591C9A058C004DDD4F /* EnsembleTools */ = {
 			isa = PBXGroup;
 			children = (
+				078E4E921C9A069B004DDD4F /* Supporting Files */,
+				078E4EBC1C9A0905004DDD4F /* InstrumentFamily */,
 				078E4EA71C9A07FE004DDD4F /* InstrumentIdentifierPath.swift */,
 				078E4EA11C9A07DA004DDD4F /* Performer.swift */,
 				078E4EAD1C9A081F004DDD4F /* Instrument.swift */,
-				078E4EBC1C9A0905004DDD4F /* InstrumentFamily */,
-				078E4E921C9A069B004DDD4F /* Supporting Files */,
 			);
 			path = EnsembleTools;
 			sourceTree = "<group>";
@@ -169,8 +183,8 @@
 		078E4E651C9A058C004DDD4F /* EnsembleToolsTests */ = {
 			isa = PBXGroup;
 			children = (
-				07D2B5531C9A195F0078B0AB /* InstrumentFamilyTests.swift */,
 				078E4E931C9A06A2004DDD4F /* Supporting Files */,
+				07D2B5531C9A195F0078B0AB /* InstrumentFamilyTests.swift */,
 			);
 			path = EnsembleToolsTests;
 			sourceTree = "<group>";
@@ -203,6 +217,7 @@
 		078E4E9F1C9A0795004DDD4F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				07B08FC81C9B128600FD7A07 /* EnumTools.framework */,
 				078E4E981C9A0701004DDD4F /* DictionaryTools.framework */,
 			);
 			name = iOS;
@@ -211,6 +226,7 @@
 		078E4EA01C9A079A004DDD4F /* Mac */ = {
 			isa = PBXGroup;
 			children = (
+				07B08FCA1C9B129300FD7A07 /* EnumTools.framework */,
 				078E4E9A1C9A0710004DDD4F /* DictionaryTools.framework */,
 			);
 			name = Mac;
@@ -409,6 +425,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/DictionaryTools.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/EnumTools.framework",
 			);
 			outputPaths = (
 			);
@@ -423,6 +440,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/Mac/DictionaryTools.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/EnumTools.framework",
 			);
 			outputPaths = (
 			);
@@ -633,8 +651,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = EnsembleToolsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bean.EnsembleToolsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -644,8 +666,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = EnsembleToolsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bean.EnsembleToolsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -710,8 +736,12 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = EnsembleToolsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(PROJECT_DIR)/Carthage/Build/Mac";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bean.EnsembleToolsMacTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -725,8 +755,12 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = EnsembleToolsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(PROJECT_DIR)/Carthage/Build/Mac";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bean.EnsembleToolsMacTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
