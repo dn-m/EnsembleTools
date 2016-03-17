@@ -33,7 +33,7 @@ public class InstrumentFamily: EnumTree {
         return []
     }
     
-    public  class func getSubFamilies() -> [InstrumentFamily.Type] {
+    public class func getSubFamilies() -> [InstrumentFamily.Type] {
         return []
     }
 }
