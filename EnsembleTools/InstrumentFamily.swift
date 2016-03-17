@@ -13,7 +13,10 @@ import Foundation
  
  >`InstrumentFamily.Woodwinds.Flutes.Alto`
  */
-public class InstrumentFamily {
+public class InstrumentFamily: KindFamily {
+    
+    public typealias Kind = InstrumentKind
+    public typealias Family = InstrumentFamily
     
     // MARK: - Type Properties
     
@@ -38,5 +41,28 @@ public class InstrumentFamily {
     
     internal class func getSubFamilies() -> [InstrumentFamily.Type] {
         return []
+    }
+}
+
+public protocol KindFamily {
+    
+    associatedtype Kind
+    associatedtype Family
+    
+    static var members: [Kind] { get }
+    static var subFamilies: [Family.Type] { get }
+    
+    static func has(kind: Kind) -> Bool
+}
+
+extension KindFamily where Kind: Equatable, Family: KindFamily, Family.Kind == Kind {
+    
+    public static var members: [Kind] { return [] }
+    public static var subFamilies: [Family.Type] { return [] }
+    
+    public static func has(kind: Kind) -> Bool {
+        if members.contains(kind) { return true }
+        for family in subFamilies { if family.has(kind) { return true } }
+        return false
     }
 }
