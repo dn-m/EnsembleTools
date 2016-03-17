@@ -24,16 +24,8 @@ public class InstrumentFamily: EnumTree {
     // MARK: - Type Properties
  
     /// Members of `InstrumentFamily`.
-    public static var members: [EnumKind] { return getMembers() }
+    public class var members: [EnumKind] { return [] }
     
     /// SubFamilies of `InstrumentFamily`.
-    public static var subFamilies: [InstrumentFamily.Type] { return getSubFamilies() }
-    
-    public class func getMembers() -> [InstrumentKind] {
-        return []
-    }
-    
-    public class func getSubFamilies() -> [InstrumentFamily.Type] {
-        return []
-    }
+    public class var subFamilies: [InstrumentFamily.Type] { return [] }
 }

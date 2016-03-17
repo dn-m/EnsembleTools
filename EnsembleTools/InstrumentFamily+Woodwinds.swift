@@ -21,7 +21,7 @@ extension InstrumentFamily {
             public static let Bass: InstrumentKind = .Flute_Bass
             public static let Contrabass: InstrumentKind = .Flute_Contrabass
             
-            public override class func getMembers() -> [InstrumentKind] {
+            public override class var members: [InstrumentKind] {
                 return [Piccolo, C, Alto, Bass, Contrabass]
             }
         }
@@ -33,7 +33,7 @@ extension InstrumentFamily {
             public static let Bass: InstrumentKind = .Clarinet_Bass
             public static let Contrabass: InstrumentKind = .Clarinet_Contrabass
             
-            public override class func getMembers() -> [InstrumentKind] {
+            public override class var members:  [InstrumentKind] {
                 return [Bflat, A, Bass, Contrabass]
             }
         }
@@ -45,7 +45,7 @@ extension InstrumentFamily {
             public static let English_Horn: InstrumentKind = .English_Horn
             public static let Bassoon: InstrumentKind = .Bassoon
             
-            public override class func getMembers() -> [InstrumentKind] {
+            public override class var members:  [InstrumentKind] {
                 return [Oboe, Oboe_dArmore, English_Horn, Bassoon]
             }
         }
@@ -59,12 +59,12 @@ extension InstrumentFamily {
             public static let Bass: InstrumentKind = .Saxophone_Bass
             public static let Contrabass: InstrumentKind = .Saxophone_Contrabass
             
-            public override class func getMembers() -> [InstrumentKind] {
+            public override class var members:  [InstrumentKind] {
                 return [Sopranino, Soprano, Alto, Baritone, Bass, Contrabass]
             }
         }
 
-        public override class func getSubFamilies() -> [InstrumentFamily.Type] {
+        public override class var subFamilies: [InstrumentFamily.Type] {
             return [
                 Flute.self,
                 Clarinet.self,
