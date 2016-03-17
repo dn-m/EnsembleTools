@@ -19,7 +19,7 @@ extension InstrumentFamily {
         public static let Contrabass: InstrumentKind = .Contrabass
         public static let Guitar: InstrumentKind = .Guitar
         
-        internal class override func getMembers() -> [InstrumentKind] {
+        public override class func getMembers() -> [InstrumentKind] {
             return [ Violin, Viola, Violoncello, Contrabass, Guitar ]
         }
     }

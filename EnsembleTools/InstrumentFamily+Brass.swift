@@ -26,12 +26,12 @@ extension InstrumentFamily {
             public static let Bflat: InstrumentKind = .Trumpet_Bflat
             public static let C: InstrumentKind = .Trumpet_C
             
-            internal override class func getMembers() -> [InstrumentKind] {
+            public override class func getMembers() -> [InstrumentKind] {
                 return [Bflat, C]
             }
         }
         
-        internal override class func getSubFamilies() -> [InstrumentFamily.Type] {
+        public override class func getSubFamilies() -> [InstrumentFamily.Type] {
             return [Trumpet.self]
         }
     }

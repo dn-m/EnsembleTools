@@ -16,6 +16,8 @@ import EnumTools
  */
 public class InstrumentFamily: EnumTree {
     
+    // MARK: - Associated Types
+    
     public typealias EnumKind = InstrumentKind
     public typealias EnumFamily = InstrumentFamily
     
@@ -27,11 +29,11 @@ public class InstrumentFamily: EnumTree {
     /// SubFamilies of `InstrumentFamily`.
     public static var subFamilies: [InstrumentFamily.Type] { return getSubFamilies() }
     
-    internal class func getMembers() -> [InstrumentKind] {
+    public class func getMembers() -> [InstrumentKind] {
         return []
     }
     
-    internal class func getSubFamilies() -> [InstrumentFamily.Type] {
+    public  class func getSubFamilies() -> [InstrumentFamily.Type] {
         return []
     }
 }

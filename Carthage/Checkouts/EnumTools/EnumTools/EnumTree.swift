@@ -34,6 +34,10 @@ public protocol EnumTree {
     /// Subclasses of `EnumFamily` conforming class, containing `members` and / or `subfamiles`.
     static var subFamilies: [EnumFamily.Type] { get }
     
+    static func getMembers() -> [EnumKind]
+    
+    static func getSubFamilies() -> [EnumFamily.Type]
+    
     // MARK: - Type Methods
     
     /**
@@ -52,12 +56,12 @@ extension EnumTree where
     /**
      - note: Returns `[]`. Override in embedded subclasses to return all appropriate cases.
      */
-    public static var members: [EnumKind] { return [] }
+    public static var members: [EnumKind] { return getMembers() }
     
     /**
      - note: Returns `[]`. Override in embedded subclasses to return all appropriate values.
     */
-    public static var subFamilies: [EnumFamily.Type] { return [] }
+    public static var subFamilies: [EnumFamily.Type] { return getSubFamilies() }
     
     /**
      - returns: `true` if `members` or any subFamily's `members` contains `kind` value.
@@ -67,4 +71,8 @@ extension EnumTree where
         for family in subFamilies { if family.has(kind) { return true } }
         return false
     }
+    
+    public static func getMembers() -> [EnumKind] { return [] }
+    
+    public static func getSubFamilies() -> [EnumFamily.Type] { return [] }
 }

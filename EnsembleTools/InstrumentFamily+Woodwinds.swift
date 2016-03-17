@@ -21,7 +21,7 @@ extension InstrumentFamily {
             public static let Bass: InstrumentKind = .Flute_Bass
             public static let Contrabass: InstrumentKind = .Flute_Contrabass
             
-            internal override class func getMembers() -> [InstrumentKind] {
+            public override class func getMembers() -> [InstrumentKind] {
                 return [Piccolo, C, Alto, Bass, Contrabass]
             }
         }
@@ -33,7 +33,7 @@ extension InstrumentFamily {
             public static let Bass: InstrumentKind = .Clarinet_Bass
             public static let Contrabass: InstrumentKind = .Clarinet_Contrabass
             
-            internal override class func getMembers() -> [InstrumentKind] {
+            public override class func getMembers() -> [InstrumentKind] {
                 return [Bflat, A, Bass, Contrabass]
             }
         }
@@ -45,7 +45,7 @@ extension InstrumentFamily {
             public static let English_Horn: InstrumentKind = .English_Horn
             public static let Bassoon: InstrumentKind = .Bassoon
             
-            internal override class func getMembers() -> [InstrumentKind] {
+            public override class func getMembers() -> [InstrumentKind] {
                 return [Oboe, Oboe_dArmore, English_Horn, Bassoon]
             }
         }
@@ -59,12 +59,12 @@ extension InstrumentFamily {
             public static let Bass: InstrumentKind = .Saxophone_Bass
             public static let Contrabass: InstrumentKind = .Saxophone_Contrabass
             
-            internal override class func getMembers() -> [InstrumentKind] {
+            public override class func getMembers() -> [InstrumentKind] {
                 return [Sopranino, Soprano, Alto, Baritone, Bass, Contrabass]
             }
         }
 
-        internal override class func getSubFamilies() -> [InstrumentFamily.Type] {
+        public override class func getSubFamilies() -> [InstrumentFamily.Type] {
             return [
                 Flute.self,
                 Clarinet.self,
