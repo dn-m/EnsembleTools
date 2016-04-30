@@ -11,7 +11,7 @@ import Foundation
 extension InstrumentFamily {
     
     /// Model of the string instrument family.
-    public class String: InstrumentFamily {
+    public class String: EnumFamily {
         
         public static let Violin: EnumKind = .Violin
         public static let Viola: EnumKind = .Viola
@@ -19,7 +19,7 @@ extension InstrumentFamily {
         public static let Contrabass: EnumKind = .Contrabass
         public static let Guitar: EnumKind = .Guitar
         
-        public override class var members: [EnumKind] {
+        public override class var members: [EnumFamily] {
             return [ Violin, Viola, Violoncello, Contrabass, Guitar ]
         }
     }

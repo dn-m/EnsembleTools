@@ -11,10 +11,10 @@ import Foundation
 extension InstrumentFamily {
     
     /// Model of the woodwind instrument family.
-    public class Woodwind: InstrumentFamily {
+    public class Woodwind: EnumFamily {
         
         /// Model of the flute instrument family.
-        public class Flute: InstrumentFamily {
+        public class Flute: EnumFamily {
             public static let Piccolo: EnumKind = .Flute_Piccolo
             public static let C: EnumKind = .Flute_C
             public static let Alto: EnumKind = .Flute_Alto
@@ -27,7 +27,7 @@ extension InstrumentFamily {
         }
         
         /// Model of the clarinet instrument family.
-        public class Clarinet: InstrumentFamily {
+        public class Clarinet: EnumFamily {
             public static let Bflat: EnumKind = .Clarinet_Bflat
             public static let A: EnumKind = .Clarinet_A
             public static let Bass: EnumKind = .Clarinet_Bass
@@ -39,7 +39,7 @@ extension InstrumentFamily {
         }
         
         /// Model of the double reed instrument family.
-        public class DoubleReed: InstrumentFamily {
+        public class DoubleReed: EnumFamily {
             public static let Oboe: EnumKind = .Oboe
             public static let Oboe_dArmore: EnumKind = .Oboe_dAmore
             public static let English_Horn: EnumKind = .English_Horn
@@ -51,7 +51,7 @@ extension InstrumentFamily {
         }
         
         /// Model of the saxophone instrument family.
-        public class Saxophone: InstrumentFamily {
+        public class Saxophone: EnumFamily {
             public static let Sopranino: EnumKind = .Saxophone_Sopranino
             public static let Soprano: EnumKind = .Saxophone_Soprano
             public static let Alto: EnumKind = .Saxophone_Alto
@@ -64,7 +64,7 @@ extension InstrumentFamily {
             }
         }
 
-        public override class var subFamilies: [InstrumentFamily.Type] {
+        public override class var subFamilies: [EnumFamily.Type] {
             return [
                 Flute.self,
                 Clarinet.self,

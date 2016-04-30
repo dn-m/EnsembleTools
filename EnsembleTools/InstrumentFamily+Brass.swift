@@ -15,14 +15,14 @@ extension InstrumentFamily {
      
      - warning: Not fully implemented!
      */
-    public class Brass: InstrumentFamily {
+    public class Brass: EnumFamily {
         
         /**
          Model of the trumpet instrument family.
          
          - warning: Not fully implemented!
          */
-        public class Trumpet: InstrumentFamily {
+        public class Trumpet: EnumFamily {
             
             public static let Bflat: EnumKind = .Trumpet_Bflat
             public static let C: EnumKind = .Trumpet_C
@@ -30,7 +30,7 @@ extension InstrumentFamily {
             public override class var members: [EnumKind] { return [Bflat, C] }
         }
         
-        public override class var subFamilies: [InstrumentFamily.Type] {
+        public override class var subFamilies: [EnumFamily.Type] {
             return [Trumpet.self]
         }
     }
