@@ -19,7 +19,7 @@ extension InstrumentFamily {
         public static let Contrabass: EnumKind = .Contrabass
         public static let Guitar: EnumKind = .Guitar
         
-        public override class var members: [EnumFamily] {
+        public override class var members: [EnumKind] {
             return [ Violin, Viola, Violoncello, Contrabass, Guitar ]
         }
     }
