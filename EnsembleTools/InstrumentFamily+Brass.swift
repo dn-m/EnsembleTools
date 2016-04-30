@@ -23,12 +23,11 @@ extension InstrumentFamily {
          - warning: Not fully implemented!
          */
         public class Trumpet: InstrumentFamily {
-            public static let Bflat: InstrumentKind = .Trumpet_Bflat
-            public static let C: InstrumentKind = .Trumpet_C
             
-            public override class var members: [InstrumentKind] {
-                return [Bflat, C]
-            }
+            public static let Bflat: EnumKind = .Trumpet_Bflat
+            public static let C: EnumKind = .Trumpet_C
+            
+            public override class var members: [EnumKind] { return [Bflat, C] }
         }
         
         public override class var subFamilies: [InstrumentFamily.Type] {

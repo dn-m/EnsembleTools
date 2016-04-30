@@ -27,5 +27,5 @@ public class InstrumentFamily: EnumTree {
     public class var members: [EnumKind] { return [] }
     
     /// SubFamilies of `InstrumentFamily`.
-    public class var subFamilies: [InstrumentFamily.Type] { return [] }
+    public class var subFamilies: [EnumFamily.Type] { return [] }
 }
