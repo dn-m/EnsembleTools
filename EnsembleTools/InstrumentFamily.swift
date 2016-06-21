@@ -28,4 +28,6 @@ public class InstrumentFamily: EnumTree {
     
     /// SubFamilies of `InstrumentFamily`.
     public class var subFamilies: [EnumFamily.Type] { return [] }
+    
+    // clef and transposition contexts
 }

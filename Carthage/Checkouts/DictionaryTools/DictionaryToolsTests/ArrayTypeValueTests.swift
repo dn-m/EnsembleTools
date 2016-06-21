@@ -13,13 +13,13 @@ class ArrayTypeValueTests: XCTestCase {
 
     func testEnsureValueAtKeyNecessary() {
         var dict = ["k": [1,2,3,4]]
-        dict.ensureValue(forKey: "new")
+        dict.ensureValue(for: "new")
         XCTAssertNotNil(dict["new"])
     }
     
     func testEnsureValueAtKeyUnnecessary() {
         var dict = ["k": [1,2,3,4]]
-        dict.ensureValue(forKey: "k")
+        dict.ensureValue(for: "k")
         XCTAssertEqual(dict["k"]!, [1,2,3,4])
     }
     

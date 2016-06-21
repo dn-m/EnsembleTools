@@ -16,20 +16,16 @@ public struct OrderedDictionary<K: Hashable, V: Equatable> {
     // MARK: - Instance Variables
     
     /** 
-     Keys.
-     
-     - note: Consider making `private`, or at least `internal`.
+     Keys of `OrderedDictionary`.
      */
     private var keys: [K] = []
     
     /**
-     Values.
-     
-     - note: Consider making `private`, or at least `internal`.
+     Values of `OrderedDictionary`.
      */
     private var values: [K: V] = [:]
     
-    /// Amount of entries in `OrderedDictionary`
+    /// Amount of entries in `OrderedDictionary`.
     public var count: Int { return keys.count }
     
     
@@ -40,7 +36,7 @@ public struct OrderedDictionary<K: Hashable, V: Equatable> {
     // MARK: - Instance Methods
     
     /**
-    Append value for key.
+    Append `value` for `key`.
     
     - parameter value: Value to append to `OrderedDictionary`
     - parameter key:   Key for which to append Value
@@ -51,11 +47,11 @@ public struct OrderedDictionary<K: Hashable, V: Equatable> {
     }
     
     /**
-     Insert value for key, at a given index.
+     Insert `value` for `key`, at a given `index`.
      
-     - parameter value: Value to insert
-     - parameter key:   Key for which to insert value
-     - parameter index: Index at which to insert key
+     - parameter value: Value to insert.
+     - parameter key:   Key for which to insert value.
+     - parameter index: Index at which to insert key.
      */
     public mutating func insert(value: V, forKey key: K, atIndex index: Int) {
         keys.insert(key, atIndex: index)
@@ -64,8 +60,6 @@ public struct OrderedDictionary<K: Hashable, V: Equatable> {
     
     /**
      Append the contents of another `OrderedDictionary`.
-     
-     - parameter orderedDictionary: `OrderedDictionary` to append.
      */
     public mutating func appendContents(of orderedDictionary: OrderedDictionary<K,V>) {
         keys.appendContentsOf(orderedDictionary.keys)
@@ -80,11 +74,7 @@ public struct OrderedDictionary<K: Hashable, V: Equatable> {
 extension OrderedDictionary {
     
     /**
-     Get the `Value` at a given `index`.
-     
-     - parameter index: Index for the desired `Value`
-     
-     - returns: `Value` at `index`, if available. Otherwise `nil`.
+     - returns: `Value` at the given `index`, if available. Otherwise `nil`.
      */
     public subscript(index: Int) -> V? {
         if index >= keys.count { return nil }
@@ -92,11 +82,7 @@ extension OrderedDictionary {
     }
     
     /**
-     Get the `Value` for a given `key`.
-     
-     - parameter key: Key for the desired `Value`
-     
-     - returns: `Value for `key`, if available. Otherise `nil`.
+     - returns: `Value for the given `key`, if available. Otherise `nil`.
      */
     public subscript(key: K) -> V? {
         
@@ -120,12 +106,7 @@ extension OrderedDictionary {
 extension OrderedDictionary: Equatable { }
 
 /**
- Check equality of two `OrderedDictionary` values.
- 
- - parameter lhs: One `OrderedDictionary`
- - parameter rhs: Another `OrderedDictionary`
- 
- - returns: `True` if all `Values` and `Keys` are equivalent. Otherwise `false`.
+ - returns: `true` if all `Values` and `Keys` are equivalent. Otherwise `false`.
  */
 public func == <K,V>(lhs: OrderedDictionary<K,V>, rhs: OrderedDictionary<K,V>) -> Bool {
 

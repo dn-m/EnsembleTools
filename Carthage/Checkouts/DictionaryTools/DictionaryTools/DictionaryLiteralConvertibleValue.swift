@@ -21,13 +21,13 @@ public extension Dictionary where
     private typealias Internal = Value.Key
     private typealias Leaf = Value.Value
     
-    mutating func ensureValue(forKey key: Key) {
+    mutating func ensureValue(for key: Key) {
         if self[key] == nil { self[key] = [:] }
     }
     
     mutating func updateValue(value: Value.Value, forKeyPath keyPath: KeyPath) {
         guard let key = keyPath[0] as? Key, subKey = keyPath[1] as? Value.Key else { return }
-        self.ensureValue(forKey: key)
+        self.ensureValue(for: key)
         var dictCopy = self[key]! as! SubDictionary
         dictCopy.updateValue(value, forKey: subKey)
         self.updateValue(dictCopy as! Value, forKey: key)
@@ -38,7 +38,7 @@ public extension Dictionary where
     {
         var target: Dictionary<Key,Value> = self
         for (key, subDict) in dictionary {
-            target.ensureValue(forKey: key)
+            target.ensureValue(for: key)
             var dictCopy = target[key]! as! SubDictionary
             for (subKey, value) in subDict as! SubDictionary {
                 dictCopy.updateValue(value, forKey: subKey)
@@ -63,12 +63,7 @@ public func += <K: Hashable, KK: Hashable, V: Equatable>(
 }
 
 /**
- Check equality of two Dictionaries with type [K: [KK: V]]
- 
- - parameter lhs: First dictionary
- - parameter rhs: Second dictionary
- 
- - returns: True if each value in both Dictionaries are equivalent. Otherwise false.
+ - returns: `true` if each value in both Dictionaries are equivalent. Otherwise `false`.
  */
 public func == <K: Hashable, KK: Hashable, V: Equatable>(
     lhs: [K: [KK : V]], rhs: [K: [KK : V]]
@@ -92,8 +87,6 @@ public func != <K: Hashable, KK: Hashable, V: Equatable>(
     return !(lhs == rhs)
 }
 
-
-
 public extension Dictionary where
     Key: Hashable,
     Value: DictionaryLiteralConvertible,
@@ -106,7 +99,7 @@ public extension Dictionary where
     public mutating func ensureValueFor(keyPath: KeyPath) {
         guard let key = keyPath[0] as? Key, subKey = keyPath[1] as? Value.Key else { return }
         guard (self[key] as? [Value.Key: Value.Value])?[subKey] == nil else { return }
-        self.ensureValue(forKey: key)
+        self.ensureValue(for: key)
         var dictCopy = self[key]! as! Dictionary<Value.Key, Value.Value>
         dictCopy[subKey] = []
         self[key] = dictCopy as? Value
@@ -119,7 +112,7 @@ public extension Dictionary where
         guard let key = keyPath[0] as? Key, subKey = keyPath[1] as? Value.Key else { return }
         self.ensureValueFor(keyPath)
         var dictCopy = self[key] as! Dictionary<Value.Key, Value.Value>
-        dictCopy.ensureValue(forKey: subKey)
+        dictCopy.ensureValue(for: subKey)
         dictCopy[subKey]!.append(value)
         self.updateValue(dictCopy as! Value, forKey: key)
     }
