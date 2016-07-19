@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07404DBF1D20242A00E5F8E3 /* SortedOrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07404DBE1D20242A00E5F8E3 /* SortedOrderedDictionary.swift */; };
+		07404DC01D20242A00E5F8E3 /* SortedOrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07404DBE1D20242A00E5F8E3 /* SortedOrderedDictionary.swift */; };
 		076FDE681C7D02A1006A47B4 /* ArrayTypeValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076FDE661C7D02A1006A47B4 /* ArrayTypeValueTests.swift */; };
 		076FDE691C7D02A1006A47B4 /* ArrayTypeValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076FDE661C7D02A1006A47B4 /* ArrayTypeValueTests.swift */; };
 		076FDE6A1C7D02A1006A47B4 /* KeyPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076FDE671C7D02A1006A47B4 /* KeyPathTests.swift */; };
@@ -19,20 +21,22 @@
 		078142301C7CD681004B68D3 /* DictionaryTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 078141FD1C7CD629004B68D3 /* DictionaryTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		078142321C7CD6B4004B68D3 /* DictionaryTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 078141FA1C7CD629004B68D3 /* DictionaryTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		078142341C7CD6BB004B68D3 /* DictionaryTools.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 078142191C7CD66F004B68D3 /* DictionaryTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		078142391C7CD70D004B68D3 /* ArrayTypeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078142351C7CD70D004B68D3 /* ArrayTypeValue.swift */; };
-		0781423A1C7CD70D004B68D3 /* ArrayTypeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078142351C7CD70D004B68D3 /* ArrayTypeValue.swift */; };
-		0781423B1C7CD70D004B68D3 /* DictionaryLiteralConvertibleValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078142361C7CD70D004B68D3 /* DictionaryLiteralConvertibleValue.swift */; };
-		0781423C1C7CD70D004B68D3 /* DictionaryLiteralConvertibleValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078142361C7CD70D004B68D3 /* DictionaryLiteralConvertibleValue.swift */; };
 		0781423D1C7CD70D004B68D3 /* KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078142371C7CD70D004B68D3 /* KeyPath.swift */; };
 		0781423E1C7CD70D004B68D3 /* KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078142371C7CD70D004B68D3 /* KeyPath.swift */; };
-		0781423F1C7CD70D004B68D3 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078142381C7CD70D004B68D3 /* Merge.swift */; };
-		078142401C7CD70D004B68D3 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078142381C7CD70D004B68D3 /* Merge.swift */; };
 		078142BE1C7CF602004B68D3 /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078142BD1C7CF602004B68D3 /* OrderedDictionary.swift */; };
 		078142BF1C7CF602004B68D3 /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078142BD1C7CF602004B68D3 /* OrderedDictionary.swift */; };
 		078142C11C7CFC49004B68D3 /* OrderedDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078142C01C7CFC49004B68D3 /* OrderedDictionaryTests.swift */; };
 		078142C21C7CFC49004B68D3 /* OrderedDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078142C01C7CFC49004B68D3 /* OrderedDictionaryTests.swift */; };
 		078142C41C7CFF8D004B68D3 /* MergeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078142C31C7CFF8D004B68D3 /* MergeTests.swift */; };
 		078142C51C7CFF8D004B68D3 /* MergeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078142C31C7CFF8D004B68D3 /* MergeTests.swift */; };
+		07A110321D2147000024A2D7 /* SortedOrderedDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A110311D2147000024A2D7 /* SortedOrderedDictionaryTests.swift */; };
+		07A110331D2147000024A2D7 /* SortedOrderedDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A110311D2147000024A2D7 /* SortedOrderedDictionaryTests.swift */; };
+		07B93E691D20327500851FE0 /* DictionaryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B93E681D20327500851FE0 /* DictionaryType.swift */; };
+		07B93E6A1D20327500851FE0 /* DictionaryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B93E681D20327500851FE0 /* DictionaryType.swift */; };
+		07B93E6C1D2064B300851FE0 /* OrderedDictionaryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B93E6B1D2064B300851FE0 /* OrderedDictionaryType.swift */; };
+		07B93E6D1D2064B300851FE0 /* OrderedDictionaryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B93E6B1D2064B300851FE0 /* OrderedDictionaryType.swift */; };
+		19E29C952BA7BA476D410C96 /* ArrayTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAB60A0781BEF93D9543BEF /* ArrayTools.framework */; };
+		D7D46FEE60974B68DA49004B /* ArrayTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B1429F79B897A54A4D9E53 /* ArrayTools.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +80,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07404DBE1D20242A00E5F8E3 /* SortedOrderedDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortedOrderedDictionary.swift; sourceTree = "<group>"; };
 		076FDE661C7D02A1006A47B4 /* ArrayTypeValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayTypeValueTests.swift; sourceTree = "<group>"; };
 		076FDE671C7D02A1006A47B4 /* KeyPathTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPathTests.swift; sourceTree = "<group>"; };
 		076FDE6C1C7D092C006A47B4 /* DictionaryLiteralConvertibleValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryLiteralConvertibleValueTests.swift; sourceTree = "<group>"; };
@@ -86,13 +91,15 @@
 		0781420B1C7CD629004B68D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		078142191C7CD66F004B68D3 /* DictionaryTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DictionaryTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		078142221C7CD66F004B68D3 /* DictionaryToolsMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryToolsMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		078142351C7CD70D004B68D3 /* ArrayTypeValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayTypeValue.swift; sourceTree = "<group>"; };
-		078142361C7CD70D004B68D3 /* DictionaryLiteralConvertibleValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryLiteralConvertibleValue.swift; sourceTree = "<group>"; };
 		078142371C7CD70D004B68D3 /* KeyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPath.swift; sourceTree = "<group>"; };
-		078142381C7CD70D004B68D3 /* Merge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Merge.swift; sourceTree = "<group>"; };
 		078142BD1C7CF602004B68D3 /* OrderedDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderedDictionary.swift; sourceTree = "<group>"; };
 		078142C01C7CFC49004B68D3 /* OrderedDictionaryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderedDictionaryTests.swift; sourceTree = "<group>"; };
 		078142C31C7CFF8D004B68D3 /* MergeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeTests.swift; sourceTree = "<group>"; };
+		07A110311D2147000024A2D7 /* SortedOrderedDictionaryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SortedOrderedDictionaryTests.swift; path = ../DictionaryTools/SortedOrderedDictionaryTests.swift; sourceTree = "<group>"; };
+		07B93E681D20327500851FE0 /* DictionaryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryType.swift; sourceTree = "<group>"; };
+		07B93E6B1D2064B300851FE0 /* OrderedDictionaryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderedDictionaryType.swift; sourceTree = "<group>"; };
+		39B1429F79B897A54A4D9E53 /* ArrayTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArrayTools.framework; path = Carthage/Build/Mac/ArrayTools.framework; sourceTree = "<group>"; };
+		EBAB60A0781BEF93D9543BEF /* ArrayTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArrayTools.framework; path = Carthage/Build/iOS/ArrayTools.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E29C952BA7BA476D410C96 /* ArrayTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D46FEE60974B68DA49004B /* ArrayTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +145,7 @@
 				078141FC1C7CD629004B68D3 /* DictionaryTools */,
 				078142081C7CD629004B68D3 /* DictionaryToolsTests */,
 				078141FB1C7CD629004B68D3 /* Products */,
+				F78D5055BA1E7FC07172F777 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,12 +163,9 @@
 		078141FC1C7CD629004B68D3 /* DictionaryTools */ = {
 			isa = PBXGroup;
 			children = (
-				078142351C7CD70D004B68D3 /* ArrayTypeValue.swift */,
-				078142361C7CD70D004B68D3 /* DictionaryLiteralConvertibleValue.swift */,
-				078142371C7CD70D004B68D3 /* KeyPath.swift */,
-				078142381C7CD70D004B68D3 /* Merge.swift */,
-				078142BD1C7CF602004B68D3 /* OrderedDictionary.swift */,
 				078142C61C7CFFBA004B68D3 /* Supporting Files */,
+				07B93E671D20326A00851FE0 /* Protocols */,
+				07B93E661D20325A00851FE0 /* Structures */,
 			);
 			path = DictionaryTools;
 			sourceTree = "<group>";
@@ -169,6 +176,7 @@
 				076FDE661C7D02A1006A47B4 /* ArrayTypeValueTests.swift */,
 				076FDE6C1C7D092C006A47B4 /* DictionaryLiteralConvertibleValueTests.swift */,
 				076FDE671C7D02A1006A47B4 /* KeyPathTests.swift */,
+				07A110311D2147000024A2D7 /* SortedOrderedDictionaryTests.swift */,
 				078142C01C7CFC49004B68D3 /* OrderedDictionaryTests.swift */,
 				078142C31C7CFF8D004B68D3 /* MergeTests.swift */,
 				078142C71C7CFFBF004B68D3 /* Supporting Files */,
@@ -190,6 +198,50 @@
 				0781420B1C7CD629004B68D3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07B93E661D20325A00851FE0 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				078142371C7CD70D004B68D3 /* KeyPath.swift */,
+				078142BD1C7CF602004B68D3 /* OrderedDictionary.swift */,
+				07404DBE1D20242A00E5F8E3 /* SortedOrderedDictionary.swift */,
+			);
+			name = Structures;
+			sourceTree = "<group>";
+		};
+		07B93E671D20326A00851FE0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				07B93E681D20327500851FE0 /* DictionaryType.swift */,
+				07B93E6B1D2064B300851FE0 /* OrderedDictionaryType.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		31261F5ADC403BF714F6BD91 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				39B1429F79B897A54A4D9E53 /* ArrayTools.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		4F2879ED5E252A5EDF66EE77 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EBAB60A0781BEF93D9543BEF /* ArrayTools.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F78D5055BA1E7FC07172F777 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F2879ED5E252A5EDF66EE77 /* iOS */,
+				31261F5ADC403BF714F6BD91 /* OS X */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +292,7 @@
 				078142011C7CD629004B68D3 /* Frameworks */,
 				078142021C7CD629004B68D3 /* Resources */,
 				078142311C7CD6AF004B68D3 /* CopyFiles */,
+				07A110341D21498B0024A2D7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -277,6 +330,7 @@
 				0781421F1C7CD66F004B68D3 /* Frameworks */,
 				078142201C7CD66F004B68D3 /* Resources */,
 				078142331C7CD6B7004B68D3 /* CopyFiles */,
+				07B0A2C01D21A21100C13F77 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -363,16 +417,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07A110341D21498B0024A2D7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ArrayTools.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		07B0A2C01D21A21100C13F77 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/ArrayTools.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		078141F51C7CD629004B68D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0781423D1C7CD70D004B68D3 /* KeyPath.swift in Sources */,
-				078142391C7CD70D004B68D3 /* ArrayTypeValue.swift in Sources */,
 				078142BE1C7CF602004B68D3 /* OrderedDictionary.swift in Sources */,
-				0781423F1C7CD70D004B68D3 /* Merge.swift in Sources */,
-				0781423B1C7CD70D004B68D3 /* DictionaryLiteralConvertibleValue.swift in Sources */,
+				07B93E6C1D2064B300851FE0 /* OrderedDictionaryType.swift in Sources */,
+				07404DBF1D20242A00E5F8E3 /* SortedOrderedDictionary.swift in Sources */,
+				07B93E691D20327500851FE0 /* DictionaryType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +467,7 @@
 			files = (
 				076FDE6D1C7D092C006A47B4 /* DictionaryLiteralConvertibleValueTests.swift in Sources */,
 				076FDE681C7D02A1006A47B4 /* ArrayTypeValueTests.swift in Sources */,
+				07A110321D2147000024A2D7 /* SortedOrderedDictionaryTests.swift in Sources */,
 				078142C11C7CFC49004B68D3 /* OrderedDictionaryTests.swift in Sources */,
 				076FDE6A1C7D02A1006A47B4 /* KeyPathTests.swift in Sources */,
 				078142C41C7CFF8D004B68D3 /* MergeTests.swift in Sources */,
@@ -393,10 +479,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0781423E1C7CD70D004B68D3 /* KeyPath.swift in Sources */,
-				0781423A1C7CD70D004B68D3 /* ArrayTypeValue.swift in Sources */,
 				078142BF1C7CF602004B68D3 /* OrderedDictionary.swift in Sources */,
-				078142401C7CD70D004B68D3 /* Merge.swift in Sources */,
-				0781423C1C7CD70D004B68D3 /* DictionaryLiteralConvertibleValue.swift in Sources */,
+				07B93E6D1D2064B300851FE0 /* OrderedDictionaryType.swift in Sources */,
+				07404DC01D20242A00E5F8E3 /* SortedOrderedDictionary.swift in Sources */,
+				07B93E6A1D20327500851FE0 /* DictionaryType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +492,7 @@
 			files = (
 				076FDE6E1C7D092C006A47B4 /* DictionaryLiteralConvertibleValueTests.swift in Sources */,
 				076FDE691C7D02A1006A47B4 /* ArrayTypeValueTests.swift in Sources */,
+				07A110331D2147000024A2D7 /* SortedOrderedDictionaryTests.swift in Sources */,
 				078142C21C7CFC49004B68D3 /* OrderedDictionaryTests.swift in Sources */,
 				076FDE6B1C7D02A1006A47B4 /* KeyPathTests.swift in Sources */,
 				078142C51C7CFF8D004B68D3 /* MergeTests.swift in Sources */,
@@ -527,6 +614,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				INFOPLIST_FILE = DictionaryTools/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -546,6 +636,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				INFOPLIST_FILE = DictionaryTools/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -561,6 +654,10 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = DictionaryToolsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bean.DictionaryToolsTests;
@@ -574,6 +671,10 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = DictionaryToolsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bean.DictionaryToolsTests;
@@ -591,6 +692,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Mac";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = DictionaryTools/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -614,6 +717,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Mac";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = DictionaryTools/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -633,6 +738,10 @@
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = DictionaryToolsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -650,6 +759,10 @@
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = DictionaryToolsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
