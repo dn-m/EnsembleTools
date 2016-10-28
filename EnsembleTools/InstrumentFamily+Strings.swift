@@ -11,15 +11,15 @@ import Foundation
 extension InstrumentFamily {
     
     /// Model of the string instrument family.
-    public class String: EnumFamily {
+    open class String: EnumFamily {
         
-        public static let Violin: EnumKind = .Violin
-        public static let Viola: EnumKind = .Viola
-        public static let Violoncello: EnumKind = .Violoncello
-        public static let Contrabass: EnumKind = .Contrabass
-        public static let Guitar: EnumKind = .Guitar
+        open static let Violin: EnumKind = .Violin
+        open static let Viola: EnumKind = .Viola
+        open static let Violoncello: EnumKind = .Violoncello
+        open static let Contrabass: EnumKind = .Contrabass
+        open static let Guitar: EnumKind = .Guitar
         
-        public override class var members: [EnumKind] {
+        open override class var members: [EnumKind] {
             return [ Violin, Viola, Violoncello, Contrabass, Guitar ]
         }
     }
