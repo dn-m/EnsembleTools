@@ -10,15 +10,15 @@ import Foundation
 import DictionaryTools
 
 /// `KeyPath` used for drilling down from a `Performer` to an `Instrument`.
-public class InstrumentIdentifierPath: KeyPath {
+open class InstrumentIdentifierPath: KeyPath {
     
     // MARK: - Instance Properties
     
     /// `PerformerID` of `InstrumentIdentifierPath`.
-    public let performerID: Performer.Identifier
+    open let performerID: Performer.Identifier
     
     /// `InstrumentID` of `InstrumentIdentifierPath`.
-    public let instrumentID: Instrument.Identifier
+    open let instrumentID: Instrument.Identifier
     
     // MARK: - Initializers
     

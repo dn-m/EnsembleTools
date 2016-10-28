@@ -14,7 +14,7 @@ import EnumTools
  
  >`InstrumentFamily.Woodwinds.Flutes.Alto`
  */
-public class InstrumentFamily: EnumTree {
+open class InstrumentFamily: EnumTree {
     
     // MARK: - Associated Types
     
@@ -24,10 +24,10 @@ public class InstrumentFamily: EnumTree {
     // MARK: - Type Properties
  
     /// Members of `InstrumentFamily`.
-    public class var members: [EnumKind] { return [] }
+    open class var members: [EnumKind] { return [] }
     
     /// SubFamilies of `InstrumentFamily`.
-    public class var subFamilies: [EnumFamily.Type] { return [] }
+    open class var subFamilies: [EnumFamily.Type] { return [] }
     
     // clef and transposition contexts
 }

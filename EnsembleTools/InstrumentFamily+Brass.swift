@@ -15,22 +15,23 @@ extension InstrumentFamily {
      
      - warning: Not fully implemented!
      */
-    public class Brass: EnumFamily {
+    open class Brass: EnumFamily {
         
         /**
          Model of the trumpet instrument family.
          
          - warning: Not fully implemented!
          */
-        public class Trumpet: EnumFamily {
+        open class Trumpet: EnumFamily {
             
-            public static let Bflat: EnumKind = .Trumpet_Bflat
-            public static let C: EnumKind = .Trumpet_C
+            open static let bFlat: EnumKind = .bFlatTrumpet
+            open static let c: EnumKind = .cTrumpet
+            open static let bass: EnumKind = .bassTrumpet
             
-            public override class var members: [EnumKind] { return [Bflat, C] }
+            open override class var members: [EnumKind] { return [bFlat, c, bass] }
         }
         
-        public override class var subFamilies: [EnumFamily.Type] {
+        open override class var subFamilies: [EnumFamily.Type] {
             return [Trumpet.self]
         }
     }

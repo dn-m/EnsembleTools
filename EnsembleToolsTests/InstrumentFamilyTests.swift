@@ -13,14 +13,14 @@ import EnumTools
 class InstrumentFamilyTests: XCTestCase {
     
     func testStringHasViolinTrue() {
-        XCTAssert(InstrumentFamily.String.has(.Violin))
+        XCTAssert(InstrumentFamily.String.has(.violin))
     }
     
     func testFluteHasAlto() {
-        XCTAssert(InstrumentFamily.Woodwind.Flute.has(.Flute_Alto))
+        XCTAssert(InstrumentFamily.Woodwind.Flute.has(.altoFlute))
     }
     
     func testStringHasAltoFalse() {
-        XCTAssertFalse(InstrumentFamily.String.has(.Flute_Alto))
+        XCTAssertFalse(InstrumentFamily.String.has(.altoFlute))
     }
 }
