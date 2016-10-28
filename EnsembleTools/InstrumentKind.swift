@@ -18,7 +18,7 @@ public enum InstrumentKind: String {
     case violin
     case viola
     case violoncello
-    case vontrabass
+    case contrabass
     case guitar
     
     // MARK: - Woodwind

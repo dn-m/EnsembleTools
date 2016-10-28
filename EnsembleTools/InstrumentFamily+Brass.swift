@@ -24,10 +24,11 @@ extension InstrumentFamily {
          */
         open class Trumpet: EnumFamily {
             
-            open static let Bflat: EnumKind = .Trumpet_Bflat
-            open static let C: EnumKind = .Trumpet_C
+            open static let bFlat: EnumKind = .bFlatTrumpet
+            open static let c: EnumKind = .cTrumpet
+            open static let bass: EnumKind = .bassTrumpet
             
-            open override class var members: [EnumKind] { return [Bflat, C] }
+            open override class var members: [EnumKind] { return [bFlat, c, bass] }
         }
         
         open override class var subFamilies: [EnumFamily.Type] {

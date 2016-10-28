@@ -15,52 +15,52 @@ extension InstrumentFamily {
         
         /// Model of the flute instrument family.
         open class Flute: EnumFamily {
-            open static let Piccolo: EnumKind = .Flute_Piccolo
-            open static let C: EnumKind = .Flute_C
-            open static let Alto: EnumKind = .Flute_Alto
-            open static let Bass: EnumKind = .Flute_Bass
-            open static let Contrabass: EnumKind = .Flute_Contrabass
+            open static let piccolo: EnumKind = .piccoloFlute
+            open static let c: EnumKind = .concertFlute
+            open static let alto: EnumKind = .altoFlute
+            open static let bass: EnumKind = .bassFlute
+            open static let contrabass: EnumKind = .contrabassFlute
             
             open override class var members: [EnumKind] {
-                return [Piccolo, C, Alto, Bass, Contrabass]
+                return [piccolo, c, alto, bass, contrabass]
             }
         }
         
         /// Model of the clarinet instrument family.
         open class Clarinet: EnumFamily {
-            open static let Bflat: EnumKind = .Clarinet_Bflat
-            open static let A: EnumKind = .Clarinet_A
-            open static let Bass: EnumKind = .Clarinet_Bass
-            open static let Contrabass: EnumKind = .Clarinet_Contrabass
+            open static let bFlat: EnumKind = .bFlatClarinet
+            open static let a: EnumKind = .aClarinet
+            open static let bass: EnumKind = .bassClarinet
+            open static let contrabass: EnumKind = .contrabassClarinet
             
             open override class var members:  [EnumKind] {
-                return [Bflat, A, Bass, Contrabass]
+                return [bFlat, a, bass, contrabass]
             }
         }
         
         /// Model of the double reed instrument family.
         open class DoubleReed: EnumFamily {
-            open static let Oboe: EnumKind = .Oboe
-            open static let Oboe_dArmore: EnumKind = .Oboe_dAmore
-            open static let English_Horn: EnumKind = .English_Horn
-            open static let Bassoon: EnumKind = .Bassoon
+            open static let oboe: EnumKind = .oboe
+            open static let oboeDAmore: EnumKind = .oboeDAmore
+            open static let englishHorn: EnumKind = .englishHorn
+            open static let bassoon: EnumKind = .bassoon
             
             open override class var members:  [EnumKind] {
-                return [Oboe, Oboe_dArmore, English_Horn, Bassoon]
+                return [oboe, oboeDAmore, englishHorn, bassoon]
             }
         }
         
         /// Model of the saxophone instrument family.
         open class Saxophone: EnumFamily {
-            open static let Sopranino: EnumKind = .Saxophone_Sopranino
-            open static let Soprano: EnumKind = .Saxophone_Soprano
-            open static let Alto: EnumKind = .Saxophone_Alto
-            open static let Baritone: EnumKind = .Saxophone_Baritone
-            open static let Bass: EnumKind = .Saxophone_Bass
-            open static let Contrabass: EnumKind = .Saxophone_Contrabass
+            open static let sopranino: EnumKind = .sopraninoSaxophone
+            open static let soprano: EnumKind = .sopranoSaxophone
+            open static let alto: EnumKind = .altoSaxophone
+            open static let baritone: EnumKind = .baritoneSaxophone
+            open static let bass: EnumKind = .bassSaxophone
+            open static let contrabass: EnumKind = .contrabassSaxophone
             
             open override class var members:  [EnumKind] {
-                return [Sopranino, Soprano, Alto, Baritone, Bass, Contrabass]
+                return [sopranino, soprano, alto, baritone, bass, contrabass]
             }
         }
 

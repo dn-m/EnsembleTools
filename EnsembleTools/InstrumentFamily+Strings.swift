@@ -13,14 +13,14 @@ extension InstrumentFamily {
     /// Model of the string instrument family.
     open class String: EnumFamily {
         
-        open static let Violin: EnumKind = .Violin
-        open static let Viola: EnumKind = .Viola
-        open static let Violoncello: EnumKind = .Violoncello
-        open static let Contrabass: EnumKind = .Contrabass
-        open static let Guitar: EnumKind = .Guitar
+        open static let violin: EnumKind = .violin
+        open static let viola: EnumKind = .viola
+        open static let violoncello: EnumKind = .violoncello
+        open static let contrabass: EnumKind = .contrabass
+        open static let guitar: EnumKind = .guitar
         
         open override class var members: [EnumKind] {
-            return [ Violin, Viola, Violoncello, Contrabass, Guitar ]
+            return [ violin, viola, violoncello, contrabass, guitar ]
         }
     }
 }
