@@ -15,85 +15,86 @@ public enum InstrumentKind: String {
     
     // MARK: - String
     
-    case Violin
-    case Viola
-    case Violoncello
-    case Contrabass
-    case Guitar
+    case violin
+    case viola
+    case violoncello
+    case vontrabass
+    case guitar
     
     // MARK: - Woodwind
     
     // MARK: Flute
     
-    case Flute_Piccolo
-    case Flute_C
-    case Flute_Alto
-    case Flute_Bass
-    case Flute_Contrabass
+    case piccoloFlute
+    case concertFlute
+    case altoFlute
+    case bassFlute
+    case contrabassFlute
     
     // MARK: Clarinet
     
-    case Clarinet_Bflat
-    case Clarinet_A
-    case Clarinet_Bass
-    case Clarinet_Contrabass
+    case bFlatClarinet
+    case aClarinet
+    case bassClarinet
+    case contrabassClarinet
     
     // MARK: Oboe
     
-    case Oboe
-    case Oboe_dAmore
-    case English_Horn
-    case Bassoon
+    case oboe
+    case oboeDAmore
+    case englishHorn
+    case bassoon
     
     // MARK: Saxophone
     
-    case Saxophone_Sopranino
-    case Saxophone_Soprano
-    case Saxophone_Alto
-    case Saxophone_Tenor
-    case Saxophone_Baritone
-    case Saxophone_Bass
-    case Saxophone_Contrabass
+    case sopraninoSaxophone
+    case sopranoSaxophone
+    case altoSaxophone
+    case tenorSaxophone
+    case baritoneSaxophone
+    case bassSaxophone
+    case contrabassSaxophone
     
     // MARK: - Brass
     
     // MARK: Trumpet
     
-    case Trumpet_Bflat
-    case Trumpet_C
+    case bFlatTrumpet
+    case cTrumpet
+    case bassTrumpet
     
     // MARK: Trombone
     
-    case Trombone_Bflat
-    case Trombone_F
+    case tenorTrombone
+    case altoTrombone
+    case bassTrombone
     
     // MARK: Horn
     
-    case Horn
+    case horn
     
     // MARK: Tuba
     
-    case Euphonium
-    case Tuba
+    case euphonium
+    case tuba
     
     // MARK: - Percussion
     
-    case Percussion_Skin
-    case Percussion_Metal
-    case Percussion_Wood
+    // TODO: Flesh out
+    case percussion
     
     // MARK: - Keyboard
     
-    case Keyboard_Piano
+    case piano
     
     // MARK: - Generic
     
-    case ContinuousController
-    case BinarySwitch
-    case MultiStateSwitch
-    case Trigger
+    case continuousController
+    case binarySwitch
+    case multistateSwitch
+    case trigger
     
     // MARK: - Virtual
     
-    case Waveform
+    case waveform
 }
